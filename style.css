@@ -4,6 +4,7 @@
 
 .orange-bg {
     background-color: #fceae8;
+    border-radius: 10px;
 }
 
 .carousel-item {
@@ -17,4 +18,61 @@
 .buy-btn {
     background-color: #FF136F;
 
+}
+
+.cat1,
+.cat2,
+.cat3 {
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.cat1 {
+    /* background-color: orange; */
+    background-image: linear-gradient(50deg, #F39832, #FAD420);
+
+
+
+}
+
+.cat2 {
+    /* background-color: orchid; */
+    background-image: linear-gradient(50deg, #EB268A, #EA1880);
+
+}
+
+.cat3 {
+    background-image: linear-gradient(50deg, #4775FF, #3805FF);
+
+}
+
+.categories h1 {
+    color: white;
+}
+
+.categories img {
+    width: 100px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card-footer {
+    background-color: white;
+    border-top: none;
+}
+
+.subs {
+    height: 300px;
+}
+
+.subs h6 {
+    color: gray;
+}
+
+.form-control {
+    margin-bottom: 5px;
 }
