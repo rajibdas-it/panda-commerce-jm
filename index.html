@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panda Ecommerce</title>
+    <title>Panda E-commerce</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -14,7 +14,7 @@
 <body>
     <!-- Navbar Section Start -->
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar  fixed-top navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="/images/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -27,13 +27,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Bagpack</a>
+                            <a class="nav-link" href="#bagpack">Bagpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#contact">Contact Us</a>
                         </li>
 
                     </ul>
@@ -137,7 +137,7 @@
     <!-- category section end -->
     <!-- Shoes Item group start -->
 
-    <div class="container">
+    <div id="shoes" class="container">
         <h1>Shoes</h1>
         <div class="card-deck">
             <div class="card">
@@ -175,8 +175,8 @@
     <!-- Shoes Item group end -->
     <!-- Bag Item group start -->
 
-    <div class="container">
-        <h1>Backpack</h1>
+    <div id="bagpack" class="container">
+        <h1>Bagpack</h1>
         <div class="card-deck">
             <div class="card">
                 <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
@@ -219,7 +219,7 @@
         </div>
     </div>
     <!-- Bag Item group end -->
-    <div class="container d-flex align-items-center justify-content-center orange-bg subs">
+    <div id="contact" class="container d-flex align-items-center justify-content-center orange-bg subs">
         <div>
             <h3>LET'S STAY IN TOUCH</h3>
             <h6>Get updates on sales, specials and more</h6>
@@ -227,6 +227,10 @@
             <button class="btn btn-danger buy-btn">Submit</button>
         </div>
     </div>
+
+    <footer>
+        <p>&copy;2022 Panda Commerce. All rights reserved by Panda commerce, Sofia, Bulgaria.</p>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
